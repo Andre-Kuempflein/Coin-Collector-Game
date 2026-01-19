@@ -41,7 +41,9 @@ Um das Spiel zu starten, verwende den folgenden Befehl im Hauptverzeichnis:
 PowerShell
 
 In der PowerShell (Windows) den Pfad setzen
+
 $env:PYTHONPATH = "src"
 
 Das Spiel starten
+
 uv run -m coin_collector start --level-dir src/coin_collector/levels
