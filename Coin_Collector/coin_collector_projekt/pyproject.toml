@@ -1,0 +1,14 @@
+[project]
+name = "coin_collector"
+version = "0.1.0"
+dependencies = [
+    "pygame>=2.5.0",
+    "pydantic>=2.0.0",
+    "typer>=0.9.0",
+]
+
+[project.scripts]
+coin-collector = "coin_collector.__main__:app"
+
+[tool.ruff]
+line-length = 88
